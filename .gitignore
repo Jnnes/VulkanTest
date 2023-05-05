@@ -1,1 +1,3 @@
 .vs/
+VulkanTest/*/x64/Debug/
+VulkanTest/x64/Debug/

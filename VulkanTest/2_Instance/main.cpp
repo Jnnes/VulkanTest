@@ -95,7 +95,7 @@ private:
         setupDebugMessenger();
         createSurface();
         pickPhysicalDevice();
-        createLogicDevice();
+        createLogicalDevice();
         createSwapChain();
         createImageViews();
         createRenderPass();
@@ -399,7 +399,7 @@ private:
         }
     }
 
-    void createLogicDevice() {
+    void createLogicalDevice() {
         QueueFamilyIndices indices = findQueueFamilies(physicalDevice);
         std::vector<VkDeviceQueueCreateInfo> queueCreateInfos;
         std::set<uint32_t> uniqueQueueFamilies = {

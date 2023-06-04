@@ -89,7 +89,7 @@ private:
     void setupDebugMessenger();
     void createSurface();
     void pickPhysicalDevice();
-    void createLogicDevice();
+    void createLogicalDevice();
     void createSwapChain();
     void createImageViews();
     void createRenderPass();
@@ -193,7 +193,7 @@ inline void HelloTriangleApplication::initVulkan() {
     setupDebugMessenger();
     createSurface();
     pickPhysicalDevice();
-    createLogicDevice();
+    createLogicalDevice();
     createSwapChain();
     createImageViews();
     createRenderPass();
@@ -403,7 +403,7 @@ inline void HelloTriangleApplication::pickPhysicalDevice() {
     }
 }
 
-inline void HelloTriangleApplication::createLogicDevice() {
+inline void HelloTriangleApplication::createLogicalDevice() {
     QueueFamilyIndices indices = findQueueFamilies(physicalDevice);
     std::vector<VkDeviceQueueCreateInfo> queueCreateInfos;
     std::set<uint32_t> uniqueQueueFamilies = {

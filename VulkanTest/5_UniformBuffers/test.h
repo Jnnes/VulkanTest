@@ -124,7 +124,7 @@ private:
     void setupDebugMessenger();
     void createSurface();
     void pickPhysicalDevice();
-    void createLogicDevice();
+    void createLogicalDevice();
     void createSwapChain();
     void createImageViews();
     void createRenderPass();

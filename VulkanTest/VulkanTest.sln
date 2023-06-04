@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_VertexBuffers", "4_Vertex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_UniformBuffers", "5_UniformBuffers\5_UniformBuffers.vcxproj", "{D9F2BDF7-56F9-4B12-8646-36354B6796CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_TextureMapping", "6_TextureMapping\6_TextureMapping.vcxproj", "{F00CE83D-A8E7-46C2-BC19-E1BA02036505}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{D9F2BDF7-56F9-4B12-8646-36354B6796CD}.Release|x64.Build.0 = Release|x64
 		{D9F2BDF7-56F9-4B12-8646-36354B6796CD}.Release|x86.ActiveCfg = Release|Win32
 		{D9F2BDF7-56F9-4B12-8646-36354B6796CD}.Release|x86.Build.0 = Release|Win32
+		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Debug|x64.ActiveCfg = Debug|x64
+		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Debug|x64.Build.0 = Debug|x64
+		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Debug|x86.ActiveCfg = Debug|Win32
+		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Debug|x86.Build.0 = Debug|Win32
+		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Release|x64.ActiveCfg = Release|x64
+		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Release|x64.Build.0 = Release|x64
+		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Release|x86.ActiveCfg = Release|Win32
+		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

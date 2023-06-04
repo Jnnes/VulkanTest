@@ -57,7 +57,7 @@ void HelloTriangleApplication::initVulkan() {
     setupDebugMessenger();
     createSurface();
     pickPhysicalDevice();
-    createLogicDevice();
+    createLogicalDevice();
     createSwapChain();
     createImageViews();
     createRenderPass();
@@ -290,7 +290,7 @@ void HelloTriangleApplication::pickPhysicalDevice() {
     }
 }
 
-void HelloTriangleApplication::createLogicDevice() {
+void HelloTriangleApplication::createLogicalDevice() {
     QueueFamilyIndices indices = findQueueFamilies(physicalDevice);
     std::vector<VkDeviceQueueCreateInfo> queueCreateInfos;
     std::set<uint32_t> uniqueQueueFamilies = {

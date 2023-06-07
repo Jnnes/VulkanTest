@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0_VulkanTest", "0_VulkanTest\VulkanTest.vcxproj", "{BE4F0563-995C-4FB3-83E6-31888280DA33}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_UniformBuffers", "5_UniformBuffers\5_UniformBuffers.vcxproj", "{D9F2BDF7-56F9-4B12-8646-36354B6796CD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_TextureMapping", "6_TextureMapping\6_TextureMapping.vcxproj", "{F00CE83D-A8E7-46C2-BC19-E1BA02036505}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_DepthBuffer", "7_DepthBuffer\7_DepthBuffer.vcxproj", "{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Release|x64.Build.0 = Release|x64
 		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Release|x86.ActiveCfg = Release|Win32
 		{F00CE83D-A8E7-46C2-BC19-E1BA02036505}.Release|x86.Build.0 = Release|Win32
+		{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}.Debug|x64.ActiveCfg = Debug|x64
+		{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}.Debug|x64.Build.0 = Debug|x64
+		{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}.Debug|x86.Build.0 = Debug|Win32
+		{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}.Release|x64.ActiveCfg = Release|x64
+		{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}.Release|x64.Build.0 = Release|x64
+		{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}.Release|x86.ActiveCfg = Release|Win32
+		{375F026E-EFB4-423E-9AA4-5CF962BBD6EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
